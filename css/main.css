@@ -34,6 +34,7 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+  display: block;
 }
 
 h1 {
@@ -94,6 +95,8 @@ header {
   text-align: center;
   margin: 10px;
   border: 1px solid black;
+  height: 300px;
+  font-family: Noto Serif;
 }
 
 .box_1 p {
@@ -108,5 +111,4 @@ header {
   font-family: Nunito Sans;
   font-size: 18px;
   font-weight: 800;
-  padding: 0 10px 0 10px;
 }
