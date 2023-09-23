@@ -87,12 +87,13 @@ header {
 .container {
   display: flex;
   flex-direction: row;
-  margin: 0 5px 30px 15px;
+  justify-content: space-around;
+  margin: 0 17px 30px 17px;
 }
 
 .box_1 {
   text-align: center;
-  margin: 10px;
+  max-width: 190px;
   border: 1px solid black;
   height: 300px;
   font-family: Noto Serif;
