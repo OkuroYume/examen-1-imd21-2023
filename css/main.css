@@ -95,7 +95,7 @@ header {
   text-align: center;
   max-width: 190px;
   border: 1px solid black;
-  height: 300px;
+  height: 320px;
   font-family: Noto Serif;
 }
 
@@ -147,16 +147,6 @@ main span {
 
 .second_section {
   background: #f4ede8;
-}
-
-.container_2 {
-  display: flex;
-  flex-direction: row;
-}
-
-.box_2 {
-  background-color: #ffffff;
-  border-radius: 20px;
 }
 
 .purple {
@@ -231,4 +221,47 @@ footer p {
   text-align: center;
   font-family: Noto Serif;
   font-size: 13px;
+}
+
+.grey_background {
+  background: #f4ede8;
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  padding: 60px 20px 30px 20px;
+}
+
+.container_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4ede8;
+  padding-bottom: 60px;
+}
+
+.box_2 {
+  max-width: 190px;
+  font-family: Noto Serif;
+  font-size: 15px;
+  font-style: normal;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.box_2 span {
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.box_2 p {
+  padding: 20px;
+}
+
+.box_2 img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
